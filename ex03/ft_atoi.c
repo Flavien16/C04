@@ -6,7 +6,7 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/13 11:31:12 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/15 07:04:45 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/15 14:31:17 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,11 +33,11 @@ int	ft_atoi(char *str)
 	return (result * sign);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char	c[]= " ---+--+1234ab567";
 	int	result;
 	result = ft_atoi(c);
 	printf("%d", result);
 	return (0);
-}
+}*/
